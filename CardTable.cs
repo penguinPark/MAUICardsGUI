@@ -26,11 +26,6 @@ namespace RaceTo21
             }
         }
 
-        /* Gets the user input for number of players.
-         * Is called by Game object.
-         * Returns number of players to Game object.
-         */
-
         
         public int GetNumberOfPlayers()
         {

@@ -180,16 +180,4 @@
 	  <EmbeddedResource Include="images\card_spades_Q.png" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <MauiXaml Update="NamePage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="NumberPlayers.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="TotalWinningScore.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	</ItemGroup>
-
 </Project>

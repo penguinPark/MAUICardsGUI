@@ -9,7 +9,16 @@
 
     <ShellContent
         Title="Race to 21"
-        ContentTemplate="{DataTemplate local:MainPage}"
+         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <ShellContent
+        Route="NumberPlayers"/>
+    <ShellContent
+        Title="Names of Players"
+        Route="NamePage"/>
+    <ShellContent
+        Title="Total Winning Score"
+        Route="TotalWinningScore"/>
+
 
 </Shell>

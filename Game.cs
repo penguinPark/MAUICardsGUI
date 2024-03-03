@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MAUICardsGUI;
+using System;
 using System.Collections.Generic;
 
 namespace RaceTo21;
@@ -41,7 +42,7 @@ internal class Game
         Console.WriteLine("================================"); // this line should be elsewhere right?
         if (nextTask == Task.GetNumberOfPlayers)
         {
-            //numberOfPlayers = cardTable.GetNumberOfPlayers();
+            numberOfPlayers = cardTable.GetNumberOfPlayers();
             nextTask = Task.GetNames;
         }
         else if (nextTask == Task.GetNames)
