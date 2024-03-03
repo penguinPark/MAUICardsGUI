@@ -91,6 +91,63 @@
             HorizontalOptions="Center"/>
 
         <Label 
+            Text=""
+            FontSize="18"
+            HorizontalOptions="Center"
+            IsVisible="false"
+            x:Name="gameLabel1"/>
+
+        <Label 
+            Text=""
+            FontSize="18"
+            HorizontalOptions="Center"
+            IsVisible="false"
+            x:Name="gameLabel2"/>
+
+        <Label 
+            Text=""
+            FontSize="18"
+            HorizontalOptions="Center"
+            IsVisible="false"
+            x:Name="gameLabel3"/>
+
+
+        <Label 
+            Text=""
+            FontSize="18"
+            HorizontalOptions="Center"
+            IsVisible="false"
+            x:Name="gameLabel4"/>
+
+        <Label 
+            Text=""
+            FontSize="18"
+            HorizontalOptions="Center"
+            IsVisible="false"
+            x:Name="gameLabel5"/>
+
+        <Label 
+            Text=""
+            FontSize="18"
+            HorizontalOptions="Center"
+            IsVisible="false"
+            x:Name="gameLabel6"/>
+
+        <Label 
+            Text=""
+            FontSize="18"
+            HorizontalOptions="Center"
+            IsVisible="false"
+            x:Name="gameLabel7"/>
+
+        <Label 
+            Text=""
+            FontSize="18"
+            HorizontalOptions="Center"
+            IsVisible="false"
+            x:Name="gameLabel8"/>
+
+        <Label 
             Text="Total Winning Score:" 
             x:Name="TotalScore"
             FontSize="18" 
@@ -149,6 +206,46 @@
             FontSize="18" 
             IsVisible="false"
             HorizontalOptions="Start"/>
+
+        <Button
+            x:Name="NonScoreButton"
+            Text="Get your first cards! :)"
+            Clicked="NonScoreButton_Clicked"
+            HorizontalOptions="Center" BackgroundColor="LightCoral"
+            IsVisible="false" />
+
+
+        <Button
+            x:Name="DrawScoreButton"
+            Text="Draw :)"
+            Clicked="DrawScoreButton_Clicked"
+            HorizontalOptions="Center" BackgroundColor="LightCoral"
+            IsVisible="false" />
+
+        <Button
+            x:Name="StayScoreButton"
+            Text="Stay :)"
+            Clicked="StayScoreButton_Clicked"
+            HorizontalOptions="Center" BackgroundColor="LightCoral"
+            IsVisible="false" />
+
+        <Label 
+            Text="Do you want to draw a card?" 
+            x:Name="DrawCard"
+            FontSize="18" 
+            IsVisible="false"
+            HorizontalOptions="Start"/>
+
+        <Label 
+    Text="" 
+    x:Name="Status"
+    FontSize="18" 
+    IsVisible="false"
+    HorizontalOptions="Start"/>
+
+
+
+
 
     </VerticalStackLayout>
 

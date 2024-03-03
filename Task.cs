@@ -7,6 +7,8 @@ namespace RaceTo21
 		GetNames,
 		IntroducePlayers,
 		AgreedScore, // added agreed score so players can choose a winning score for the whole game
+		Intro,
+		FirstTurn,
 		PlayerTurn,
 		CheckForEnd,
 		GameOver,
