@@ -31,7 +31,7 @@ namespace RaceTo21
          * Returns number of players to Game object.
          */
 
-        /*
+        
         public int GetNumberOfPlayers()
         {
             Console.Write("How many players? ");
@@ -45,7 +45,7 @@ namespace RaceTo21
                 response = Console.ReadLine();
             }
             return numberOfPlayers;
-        }*/
+        }
 
         /* Gets the name of a player
          * Is called by Game object
